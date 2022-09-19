@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo Media Queries</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Menu Responsivo</h1>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+                <li><a href="#">Opção 6</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptate provident atque numquam ipsa sequi aliquam nesciunt assumenda iusto temporibus, nemo unde harum nostrum tempore, quis adipisci facere earum vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta et aut facere illo. Vel ut exercitationem dolorum dolorem. Adipisci aut repellat nihil optio at non quos iure porro in maxime.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quis deleniti et, laboriosam recusandae eveniet, repellendus ullam delectus quia pariatur nihil eos nesciunt quisquam numquam laudantium magnam, magni similique ut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab possimus eius harum molestias corporis, voluptatibus repellat eligendi pariatur alias minus ipsa enim rerum hic inventore est ratione quibusdam ullam facere!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint natus doloremque facere ratione voluptate inventore assumenda, ad reiciendis qui, vel magni tenetur aut, reprehenderit repellendus fugit minus deserunt laborum provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aperiam fugiat esse eligendi nobis inventore debitis rerum dignissimos natus voluptas voluptatem cum eveniet harum temporibus vel, voluptatibus hic nam nihil?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
