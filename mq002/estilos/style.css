@@ -37,9 +37,10 @@ menu {
 
 menu > ul {
     list-style-type: none;
+    margin-left: -80px;
 }
 
-menu > ul > li a {
+menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
