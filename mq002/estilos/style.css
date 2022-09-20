@@ -37,7 +37,7 @@ menu {
 
 menu > ul {
     list-style-type: none;
-    margin-left: -80px;
+    /*margin-left: -80px;*/
 }
 
 menu > ul > li > a {
